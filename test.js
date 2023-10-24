@@ -5,7 +5,7 @@ function test() {
     if(x == y) {
     console.log("test running, no issues");
     } else {
-        console.error("numbers are not equal");
+       throw new Error("numbers are not equal")
     }
 }
 test()
