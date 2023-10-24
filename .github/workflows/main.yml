@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  MEANING_OF_LIFE: ${{sectrets.MEANING_OF_LIFE}}
+  MEANING_OF_LIFE: ${{secrets.MEANING_OF_LIFE}}
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
